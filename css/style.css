@@ -333,8 +333,10 @@ figure {
           font-weight: 400; }
           #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn.btn-learn {
             color: #000;
-            border: 1px solid #000;
-            background: transparent !important; }
+            border: 1px solid #000;}
+            #cv{
+              background: transparent !important; 
+            }
             #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn.btn-learn:hover {
               background: transparent !important;
               border: 1px solid #000 !important; }
@@ -959,7 +961,7 @@ body.offcanvas {
         .project .desc .con .icon span {
           display: inline;
           padding-right: 5px; }
-          .project .desc .con .icon span a {
+          .project .desc .con .icon span {
             color: #333333;
             padding: 5px;
             background: rgba(255, 255, 255, 0.5);
